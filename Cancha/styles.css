@@ -1,0 +1,131 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.cancha{
+    background-color: rgb(12, 68, 12);
+    width: 100vh;
+    height: 100vh;
+    padding: 0.3rem;
+    border: .3rem solid white;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    .numero{
+        color: white;
+        height: 1.5rem;
+        aspect-ratio: 1/1;
+        background-color: black;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+
+    .zona{
+        background-color: darkgreen;
+        width: 100%;
+        height: 17%;
+        display: flex;
+    }
+    .arco{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        .arquero{
+            background-color: black;
+            height: 90%;
+            aspect-ratio: 1/1;
+            border: .3rem solid rgb(255, 255, 255);
+            border-radius: 0.5rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, Helvetica, sans-serif;
+            gap: 0.3rem;
+            .arqueros{
+                color: white;
+            }
+        }
+    }
+    .defensa{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        .defensas{
+            background-color: rgb(55, 212, 160);
+            height: 90%;
+            aspect-ratio: 1/1;
+            border: .3rem solid rgb(255, 255, 255);
+            border-radius: 0.5rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, Helvetica, sans-serif;
+            gap: 0.3rem;
+            
+        }
+    }
+    .mediocampo{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        .mediocampistas{
+            background-color: rgb(55, 212, 160);
+            height: 90%;
+            aspect-ratio: 1/1;
+            border: .3rem solid rgb(255, 255, 255);
+            border-radius: 0.5rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, Helvetica, sans-serif;
+            gap: 0.3rem;
+        }
+    }
+    .ataque{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        .ataques{
+            background-color: rgb(55, 212, 160);
+            height: 90%;
+            aspect-ratio: 1/1;
+            border: .3rem solid rgb(255, 255, 255);
+            border-radius: 0.5rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, Helvetica, sans-serif;
+            gap: 0.3rem;
+        }
+    }
+
+
+
+
+    
+}
+
+
+
+
