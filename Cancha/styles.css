@@ -30,6 +30,26 @@ body{
         display: flex;
         align-items: center;
         justify-content: center;
+        font-weight: 600;
+        position: relative;
+    }
+    .posicion{
+        font-size: .8rem;
+        font-style: italic;
+        color: black;
+        padding: .2rem;
+    }
+    .balon{
+        scale: .75;
+        position: absolute;
+        right: 100%;
+        
+    }
+    .capi{
+        scale: .75;
+        position: absolute;
+        color: black;
+        right: 110%;
     }
     
 
@@ -48,7 +68,7 @@ body{
             background-color: black;
             height: 90%;
             aspect-ratio: 1/1;
-            border: .3rem solid rgb(255, 255, 255);
+            border: .3rem solid rgb(255, 238, 0);
             border-radius: 0.5rem;
             display: flex;
             flex-direction: column;
@@ -57,6 +77,9 @@ body{
             font-family: Arial, Helvetica, sans-serif;
             gap: 0.3rem;
             .arqueros{
+                color: white;
+            }
+            .ar{
                 color: white;
             }
         }
@@ -117,6 +140,7 @@ body{
             align-items: center;
             font-family: Arial, Helvetica, sans-serif;
             gap: 0.3rem;
+            position: relative;
         }
     }
 
