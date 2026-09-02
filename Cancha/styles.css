@@ -49,7 +49,14 @@ body{
         scale: .75;
         position: absolute;
         color: black;
-        right: 110%;
+        right: -70%;
+        border-radius: 50%;
+        background-color: darkorange;
+        width: 1rem;
+        height: 1rem;
+        display: flex;
+        justify-content: center
+        ;
     }
     
 
